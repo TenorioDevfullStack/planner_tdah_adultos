@@ -1,0 +1,17 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="financesGradient" x1="16" y1="16" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="26" width="68" height="44" rx="16" fill="url(#financesGradient)" opacity="0.2"/>
+  <rect x="22" y="32" width="52" height="32" rx="12" fill="white"/>
+  <path d="M48 38C44.6863 38 42 40.6863 42 44C42 47.3137 44.6863 50 48 50C51.3137 50 54 52.6863 54 56C54 59.3137 51.3137 62 48 62" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 62C44.6863 62 42 59.3137 42 56" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 38C51.3137 38 54 40.6863 54 44" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 34V38" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 62V66" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="48" r="6" fill="#22C55E" opacity="0.35"/>
+  <circle cx="64" cy="48" r="6" fill="#22C55E" opacity="0.35"/>
+</svg>

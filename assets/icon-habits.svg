@@ -1,0 +1,13 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="habitsGradient" x1="32" y1="20" x2="64" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46EF"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <path d="M48 76C48 76 20 60 20 42C20 31.5066 28.5066 23 39 23C44.9683 23 50.271 25.9136 53.2 31C56.129 25.9136 61.4317 23 67.4 23C77.8934 23 86.4 31.5066 86.4 42C86.4 60 58.4 76 58.4 76H48Z" fill="url(#habitsGradient)" opacity="0.2"/>
+  <path d="M48 68C48 68 28 56 28 42C28 34.8203 33.8203 29 41 29C46.0333 29 50.3667 31.9667 52.6 36.4C54.8333 31.9667 59.1667 29 64.2 29C71.3797 29 77.2 34.8203 77.2 42C77.2 56 57.2 68 57.2 68H48Z" fill="white"/>
+  <path d="M42 44L46 48L54 40" stroke="#4F46EF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 48L66 52" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M38 38L34 34" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+</svg>
