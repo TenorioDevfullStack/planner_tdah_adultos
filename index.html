@@ -252,7 +252,7 @@
             </ul>
             <a
               class="btn btn--primary btn--full"
-              href="https://pay.infinitpay.com/SEU-LINK-DE-CHECKOUT"
+              href="https://checkout.infinitepay.io/leandro-tenorio?items=%5B%7B%22name%22%3A%22Planner%20TDAH%22%2C%22price%22%3A2990%2C%22quantity%22%3A1%7D%5D&amp;redirect_url=https%3A%2F%2Fplanner-tdah-adultos.vercel.app%2Fobrigado"
               target="_blank"
               rel="noopener noreferrer"
               data-checkout="infinit-pay"
@@ -393,13 +393,23 @@
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
 
-      const infinitPayCheckoutUrl =
-        "https://pay.infinitpay.com/SEU-LINK-DE-CHECKOUT";
+      const infinitPayCheckoutUrl = new URL(
+        "https://checkout.infinitepay.io/leandro-tenorio"
+      );
+      infinitPayCheckoutUrl.searchParams.set(
+        "items",
+        JSON.stringify([{ name: "Planner TDAH", price: 2990, quantity: 1 }])
+      );
+      infinitPayCheckoutUrl.searchParams.set(
+        "redirect_url",
+        "https://planner-tdah-adultos.vercel.app/obrigado"
+      );
+      const checkoutHref = infinitPayCheckoutUrl.toString();
 
       document
         .querySelectorAll('[data-checkout="infinit-pay"]')
         .forEach((button) => {
-          button.href = infinitPayCheckoutUrl;
+          button.href = checkoutHref;
         });
     </script>
   </body>
